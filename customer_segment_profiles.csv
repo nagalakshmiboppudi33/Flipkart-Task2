@@ -1,0 +1,4 @@
+Segment,Count,Avg_Total_Spend,Avg_Purchase_Freq,Avg_Average_Spend,Top_Category
+0,3,1233.3333333333333,1.0,1233.3333333333333,Groceries
+1,1,20000.0,1.0,20000.0,Electronics
+2,1,18000.0,2.0,9000.0,Electronics
