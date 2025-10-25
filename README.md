@@ -74,6 +74,7 @@ File Name	Description
 product_revenue.csv	Revenue by product
 monthly_revenue.csv	Monthly revenue summary
 summary_report.pdf	Business insights report (optional)
+
 ▶️ Execution Guide
 
 Install dependencies using the command:
