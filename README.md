@@ -68,9 +68,9 @@ Created derived features such as Month, Revenue, and Sales Count for analysis.
    
    Using barchart:preferred category per segment
        
-        boxplot:total spent and purchase perquency as per segment
+   boxplot:total spent and purchase perquency as per segment
         
-        countplot:customer count
+   countplot:customer count
 Conclusion:
 
 This project successfully demonstrates how groups customers based on their purchase behavior and gives suitable 
