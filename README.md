@@ -1,18 +1,27 @@
 Project Title:
+
 Customer Segmentation & Product Recommendation System
 
 Objective:
+
 The aim of the project is to analyse the customers product history to segment buyers and suggests to suitable products to buyers using segments.
 
 The project targets on:
+
 -->Data Cleaning - handling missing values and organises the data.
+
 -->Featured Engineering - Derive metrics such as total spend, purchase frequency, and preferred categories.
+
 -->Customer Segmentation – Apply clustering techniques to group customers.
+
 -->Recommendation System – Build collaborative or content-based filtering logic.
+
 -->Profile Analysis – Describe each customer segment in terms of behavior and spending.
+
 -->Visualizations – Charts showing segment sizes, spending patterns, and top recommendations.
 
 Tools :
+
 Python-pandas,numpy,matplotlib,seaborn,scikit-learn.
 Environment: Jupyter Notebook & VS Code
 Version Control: Git & GitHub
