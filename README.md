@@ -38,11 +38,8 @@ Created derived features such as Month, Revenue, and Sales Count for analysis.
 
 -->Featured Engineering:
 
-  Creating new columns such as Sum = sum of purchases 
+  Creating new columns such as Sum = sum of purchases , Count = product count , Mean = average of purchases.
   
-                             Count = product count
-                             
-                              Mean = average of purchases
 -->Customer Segmentation:
    
    Using the featured columns and apply clustering techniques like KMean
