@@ -1,94 +1,48 @@
-📦 Project Title
+Project Title:
+Customer Segmentation & Product Recommendation System
 
-Multi-Source Sales Data Pipeline & Business Insights Dashboard
+Objective:
+The aim of the project is to analyse the customers product history to segment buyers and suggests to suitable products to buyers using segments.
 
-🎯 Objective
+The project targets on:
+-->Data Cleaning - handling missing values and organises the data.
+-->Featured Engineering - Derive metrics such as total spend, purchase frequency, and preferred categories.
+-->Customer Segmentation – Apply clustering techniques to group customers.
+-->Recommendation System – Build collaborative or content-based filtering logic.
+-->Profile Analysis – Describe each customer segment in terms of behavior and spending.
+-->Visualizations – Charts showing segment sizes, spending patterns, and top recommendations.
 
-The goal of this project is to design and implement a scalable data pipeline that consolidates sales data from multiple sources — including CSV, Excel, and JSON — into a unified dataset for business analytics.
-
-The pipeline focuses on:
-
-Data Cleaning – Handle missing values, ensure type consistency, and fix formatting.
-
-Data Integration – Merge and unify data from multiple file formats.
-
-Exploratory Data Analysis (EDA) – Identify sales trends, patterns, and key metrics.
-
-Visualization & Reporting – Present insights through charts and exportable reports.
-
-This project highlights core data engineering and data analytics skills crucial for enterprise-level decision making.
-
-🛠️ Tools & Technologies
-
-Programming: Python
-Libraries: pandas, numpy, matplotlib, seaborn
-Reporting (Optional): pdfkit, tabulate
-Environment: Jupyter Notebook / VS Code
+Tools :
+Python-pandas,numpy,matplotlib,seaborn,scikit-learn.
+Environment: Jupyter Notebook & VS Code
 Version Control: Git & GitHub
 
-🧹 Data Preparation
-
-Converted date columns into datetime format.
-
-Standardized column names and product categories for consistency.
-
+--> Data cleaning:
 Handled missing values by filling or removing invalid records.
-
+Standardized column names and product categories for consistency.
 Created derived features such as Month, Revenue, and Sales Count for analysis.
-
-🔗 Data Integration
-
-Combined data from CSV, Excel, and JSON into a single master dataset.
-
-Applied schema unification to align data formats across sources.
-
-Generated a clean and structured dataset ready for further analysis and dashboarding.
-
-📊 Analysis & Insights
-
-Key Findings (Demo Data):
-
-Total Revenue Generated: ₹255
-
-Top Product: Widget A contributed the highest revenue in January 2025.
-
-Trend Analysis: Monthly revenue trend shows gradual growth, ideal for sales forecasting.
-
-Business Implications: Insights help in inventory planning, regional targeting, and marketing optimization.
-
-📉 Visualizations
-
-All visual outputs are saved under outputs/visuals/.
-
-Bar Chart: Revenue by Product
-
-Line Plot: Monthly Revenue Trend
-
-(Optional) Pie Chart / Heatmap: Product share or regional analysis
-
-📑 Reports
-
-Generated outputs and summaries:
-
-File Name	Description
-product_revenue.csv	Revenue by product
-monthly_revenue.csv	Monthly revenue summary
-summary_report.pdf	Business insights report (optional)
-
-▶️ Execution Guide
-
-Install dependencies using the command:
-
-pip install -r requirements.txt
-
-
-Open and run the Jupyter Notebook or Python script.
-
-Generated results and reports will appear in the outputs/ folder.
-
-✅ Conclusion
-
-This project successfully demonstrates how raw multi-source sales data can be transformed into clean, unified, and insight-rich datasets through a structured data pipeline.
+-->Featured Engineering:
+  Creating new columns such as Sum = sum of purchases 
+                             Count = product count
+                              Mean = average of purchases
+-->Customer Segmentation:
+  Using the featured columns and apply clustering techniques like KMean
+-->Recommendation System:
+   Summarizes the behavior.
+   Perferes the segment for purchase amounts.
+   And rankings to purchase amounts.
+-->Profile Analysis:
+   Summarize the behavior.
+   Spending habits and preferences of each group.
+   And average total spent and avg preferred frequency.
+-->Visualizations:
+   Visualizing using matplotlib and seaborn.
+   Present insights clearly and visually.
+   Using barchart:preferred category per segment
+        boxplot:total spent and purchase perquency as per segment
+        countplot:customer count
+Conclusion:
+This project successfully demonstrates how the  raw multi-source sales data can be transformed into clean, unified, and insight-rich datasets through a structured data pipeline.
 It lays the groundwork for advanced business intelligence dashboards and automated reporting systems in enterprise environments.
 
 👩‍💻 Author
