@@ -1,5 +1,5 @@
-CustomerID,Total_Spend,Average_Spend,Purchase_Frequency,Preferred_Category,Segment
-C001,18000,9000.0,2,Electronics,2
+CustomerID,sum,mean,count,Pref_Category,Segment
+C001,18000,9000.0,2,Electronics,1
 C002,2500,2500.0,1,Fashion,0
 C003,500,500.0,1,Groceries,0
 C004,20000,20000.0,1,Electronics,1
