@@ -23,38 +23,67 @@ The project targets on:
 Tools :
 
 Python-pandas,numpy,matplotlib,seaborn,scikit-learn.
+
 Environment: Jupyter Notebook & VS Code
+
 Version Control: Git & GitHub
 
 --> Data cleaning:
+
 Handled missing values by filling or removing invalid records.
+
 Standardized column names and product categories for consistency.
+
 Created derived features such as Month, Revenue, and Sales Count for analysis.
+
 -->Featured Engineering:
+
   Creating new columns such as Sum = sum of purchases 
+  
                              Count = product count
+                             
                               Mean = average of purchases
 -->Customer Segmentation:
-  Using the featured columns and apply clustering techniques like KMean
+   
+   Using the featured columns and apply clustering techniques like KMean
+
 -->Recommendation System:
+   
    Summarizes the behavior.
+   
    Perferes the segment for purchase amounts.
+   
    And rankings to purchase amounts.
+
 -->Profile Analysis:
+   
    Summarize the behavior.
+   
    Spending habits and preferences of each group.
+   
    And average total spent and avg preferred frequency.
+
 -->Visualizations:
+   
    Visualizing using matplotlib and seaborn.
+   
    Present insights clearly and visually.
+   
    Using barchart:preferred category per segment
+       
         boxplot:total spent and purchase perquency as per segment
+        
         countplot:customer count
 Conclusion:
-This project successfully demonstrates how the  raw multi-source sales data can be transformed into clean, unified, and insight-rich datasets through a structured data pipeline.
-It lays the groundwork for advanced business intelligence dashboards and automated reporting systems in enterprise environments.
 
-👩‍💻 Author
+This project successfully demonstrates how groups customers based on their purchase behavior and gives suitable 
+
+product recommendations.
+
+It helps businesses understand customers better and improve their sales through personalized suggestions
+
+Project by:
 
 Boppudi Naga Lakshmi
-Data Science Intern – Flipkart Pvt Ltd 
+
+Data Science Intern – Flipkart Pvt Ltd
